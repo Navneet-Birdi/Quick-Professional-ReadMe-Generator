@@ -9,29 +9,31 @@ function generatelicenseBadge(license){
 function generateMarkdown({
 title,
 license,
-github
-
+github,
+installation,
+table,
+credits,
+description,
+email,
 }) 
 {
  return `
  
- 
 # ${title}
 ${generatelicenseBadge(license)} 
 
+# Description: ${description}
 
-Desc
-This project is about ...............
-## Table Of Contents
+# Table Of Contents: ${table}
 
-## Installation
+# Installation: ${installation}
 
-## Contribiutors
+# Contributors: ${credits}
 
-## GitHub Username
+# GitHub Username
 Visit my GitHub profile here: [${github}] (https://github.com/${github})
 
-## Email
+# Email: ${email}
  
  
  

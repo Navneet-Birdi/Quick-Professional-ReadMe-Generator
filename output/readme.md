@@ -1,22 +1,20 @@
 
  
- 
-# Php
-![GPL-v2 - licensed] (https://img.shields.io/badge/license-MIT-yellowgreen) 
+# php
+![mit-licensed] (https://img.shields.io/badge/license-MIT-yellowgreen) 
 
+# Description: server side
 
-Desc
-This project is about ...............
-## Table Of Contents
+# Table Of Contents: Installation
 
-## Installation
+# Installation: mcksmckdsmcmdkjdsknjgdhsdd
 
-## Contribiutors
+# Contributors: dfdfsd
 
-## GitHub Username
-Visit my GitHub profile here: [k] (https://github.com/k)
+# GitHub Username
+Visit my GitHub profile here: [ddcfdsfds] (https://github.com/ddcfdsfds)
 
-## Email
+# Email: fdsscsdsdcdsvdv
  
  
  

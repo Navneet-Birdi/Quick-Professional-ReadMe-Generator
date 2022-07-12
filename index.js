@@ -8,26 +8,46 @@ const path = require('path');
 inquirer.prompt([
     {
         type:'input',
-        message: "What is the project title",
+        message: "What is the title of a Project? (Required)",
         name: 'title',
+        //condition to check if user enter title or not
+        validate: title => {
+            if (title){
+                return true;
+            } 
+            else{
+                console.log('Please enter title to continue!');
+                return false;
+            }
+        }
     },
     {
         type:'input',
-        message: "What is the Description",
+        message: "What is the Description? (Required)",
         name: 'description',
+        //tocheck if description for project entered or not
+        validate: input => {
+            if (input){
+                return true;
+            } 
+            else{
+                console.log('Please enter description to continue!');
+                return false;
+            }
+        }
     },
     {
-        type:'checkbox',
-        message: "What are table of contents",
+        type:'list',
+        message: "Table of contents",
         name: 'table',
         choices:['Installation', 'Credits', 'License'],
     },
+    
     {
         type:'text',
         message: "How to Install",
         name: 'installation',
     },
-    
     {
         type:'list',
         message: "What is the license",
@@ -66,11 +86,10 @@ const outputPath = path.join(__dirname, 'output', 'readme.md');
   fs.writeFile(outputPath, markdown, 'utf-8')
   //refering to documentation
     .then(() => {
-      console.log('readme!')
+      console.log('File Generated!')
     });
 
 })
-
 
 
 
