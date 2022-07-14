@@ -85,7 +85,7 @@ inquirer.prompt([
 const markdown = generateMarkdown(ans);
 
 //Results of responses in output folder
-const outputPath = path.join(__dirname, 'output', 'readme.md');
+const outputPath = path.join(__dirname, 'output', 'README.md');
 
   fs.writeFile(outputPath, markdown, 'utf-8')
   //refering to documentation
