@@ -1,10 +1,8 @@
-
- 
-# Readme Generator
-![MIT-licensed](https://img.shields.io/badge/license-MIT-yellowgreen) 
+ # Readme Generator
+![MIT - licensed](https://img.shields.io/badge/license-MIT-yellowgreen) 
 
 # Description: 
-A quick professional readme file generator based on questions
+A quick professional readme generator based on questions
 
 # Table Of Contents:
 * [Installation](#installation)
@@ -15,20 +13,23 @@ A quick professional readme file generator based on questions
   * [Questions](#questions)
 
 # Installation: 
-First of all, clone the repository from github an dthen download the node
+Clone the repo from github
 
 # Usage:
-So after installing node, run "node index.js" on visual studio terminal. After that you will be prompted with series of questions and once all questions answered a readme file will automatically be generated.
+When npm packages are installed, run "node index.js" on visual studio terminal. Then you will be prompted with series of questions and once all questions answered a readme file will automatically be generated.
 
 # Tests:
 tests
 
 # Contributors: 
-12345678......
+First of all, Fork the project then create feature branch and commit your changes. After that push all the changes to branch and then pull request. 
 
-# GitHub Username
-Visit my GitHub profile here: [Navneet] (https://github.com/Navneet)
 
-# Email: nbirdi@yahoo.com
- 
+
+
+# Questions? 
+Email Me
+[nbirdi@yahoo.com](mailto:nbirdi@yahoo.com)
+
+Visit my GitHub profile for more here: [Navneet-Birdi] (https://github.com/Navneet-Birdi)
  

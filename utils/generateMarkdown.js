@@ -1,6 +1,6 @@
 function generatelicenseBadge(license){
   const licenseName = encodeURIComponent(license.replace('_', ' '))
-  return`![${license} - licensed] (https://img.shields.io/badge/license-MIT-yellowgreen)`;
+  return`![${license} - licensed](https://img.shields.io/badge/license-MIT-yellowgreen)`;
 }
 
 
@@ -46,11 +46,14 @@ ${tests}
 # Contributors: 
 ${credits}
 
-# GitHub Username
-Visit my GitHub profile here: [${github}] (https://github.com/${github})
 
-# Email: ${email}
- 
+
+
+# Questions? 
+Email Me
+[${email}](mailto:${email})
+
+Visit my GitHub profile for more here: [${github}] (https://github.com/${github})
  `
 }
 
