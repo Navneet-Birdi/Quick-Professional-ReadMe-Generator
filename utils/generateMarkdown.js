@@ -11,10 +11,11 @@ title,
 license,
 github,
 installation,
-table,
 credits,
 description,
 email,
+usage,
+tests,
 }) 
 {
  return `
@@ -22,30 +23,35 @@ email,
 # ${title}
 ${generatelicenseBadge(license)} 
 
-# Description: ${description}
+# Description: 
+${description}
 
-# Table Of Contents: ${table}
+# Table Of Contents:
+* [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributors](#credits)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
-# Installation: ${installation}
+# Installation: 
+${installation}
 
-# Contributors: ${credits}
+# Usage:
+${usage}
+
+# Tests:
+${tests}
+
+# Contributors: 
+${credits}
 
 # GitHub Username
 Visit my GitHub profile here: [${github}] (https://github.com/${github})
 
 # Email: ${email}
  
- 
- 
- 
- 
- 
- 
  `
-
-
-
-
 }
 
 module.exports = generateMarkdown;

@@ -36,12 +36,6 @@ inquirer.prompt([
             }
         }
     },
-    {
-        type:'list',
-        message: "Table of contents",
-        name: 'table',
-        choices:['Installation', 'Credits', 'License'],
-    },
     
     {
         type:'text',
@@ -58,8 +52,18 @@ inquirer.prompt([
     },
     {
         type:'text',
-        message: "Who are contributers",
+        message: "What are contributers",
         name: 'credits',
+    },
+    {
+        type:'text',
+        message: "How to use this app",
+        name: 'usage', 
+    },
+    {
+        type:'text',
+        message: "How to run tests",
+        name: 'tests', 
     },
     
     {

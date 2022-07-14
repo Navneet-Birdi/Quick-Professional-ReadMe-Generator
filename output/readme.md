@@ -1,25 +1,28 @@
 
  
-# php
-![mit-licensed] (https://img.shields.io/badge/license-MIT-yellowgreen) 
+# Readme Generator
+![MIT - licensed] (https://img.shields.io/badge/license-MIT-yellowgreen) 
 
-# Description: server side
+# Description: 
+A quick professional readme file based on questions
 
-# Table Of Contents: Installation
+# Table Of Contents:
+* [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributors](#credits)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
-# Installation: mcksmckdsmcmdkjdsknjgdhsdd
+# Installation: 
+First clone the repository fron github and then download node
 
-# Contributors: dfdfsd
+# Contributors: 
+a,b,c,d
 
 # GitHub Username
-Visit my GitHub profile here: [ddcfdsfds] (https://github.com/ddcfdsfds)
+Visit my GitHub profile here: [Navneet] (https://github.com/Navneet)
 
-# Email: fdsscsdsdcdsvdv
- 
- 
- 
- 
- 
- 
+# Email: nbirdi@yahoo.com
  
  
