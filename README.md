@@ -33,7 +33,6 @@ Email Me
 
 Visit my GitHub profile for more here: [Navneet-Birdi] (https://github.com/Navneet-Birdi)
  
-# To watch how to create a readme file please click here:Untitled_ Jul 14 2022 4_48 PM.webm
 
-
+To watch a video please click here: https://drive.google.com/file/d/1vbyd4Dqu7W_3qX1vOL1w5qFiozW4b0oD/view
 
